@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    margin-top: 20px;
+}
+
+.logo {
+    display: flex;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.top-image {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +132,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+ 
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +211,66 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.top-content-about {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.text-container-about {
+    width: 47%;
+    padding-bottom: 20px; 
+    margin-bottom: 55px;
+    border-bottom: 1px dashed black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.middle-content-about .text-container-about img {
+    margin-bottom: 15px;
+}
+
+button{
+    background: white;
+	vertical-align: top;
+	margin-top: 20px;
+	padding: 8px 24px;
+	font-size: 16px;
+	border: 2px solid black;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font: black;
+    border-radius: 8px;
+  }
+
+  button:hover {
+	background: black;
+	color: white;
+  }
+
+  .bottom-content-about {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-bottom: 35px;
+    margin: 0 auto;
+  }
