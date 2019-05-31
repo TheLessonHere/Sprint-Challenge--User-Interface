@@ -238,9 +238,8 @@ footer nav a {
 
 .text-container-about {
     width: 47%;
-    padding: 0 1%;
     padding-bottom: 20px; 
-    margin-bottom: 60px;
+    margin-bottom: 55px;
     border-bottom: 1px dashed black;
     margin-left: 10px;
     margin-right: 10px;
@@ -265,4 +264,13 @@ button{
   button:hover {
 	background: black;
 	color: white;
+  }
+
+  .bottom-content-about {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-bottom: 35px;
+    margin: 0 auto;
   }
