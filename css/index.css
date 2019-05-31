@@ -71,6 +71,19 @@ p {
     margin: 0 auto;
 }
 
+.header {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.logo {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
